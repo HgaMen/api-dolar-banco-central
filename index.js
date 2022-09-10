@@ -9,7 +9,7 @@ const app = express();
 // }
 
 app.get('/', cors(), async (req, res) => {
-  console.log('entró aqui cors');
+  console.log('entró cors');
   try {
     const { data } = await axios.get('https://www.bcentral.cl/inicio');
 
